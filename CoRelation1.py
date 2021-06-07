@@ -14,7 +14,7 @@ def getDataSource(data_path):
 
 def findCorrelation(datasource):
     correlation = np.corrcoef(datasource["x"], datasource["y"])
-    print("correlation between Marks In Percentage vs Days Preseny:-  \n---> ", correlation[0,1])
+    print("correlation between Marks In Percentage vs Days Present:-  \n---> ", correlation[0,1])
 
 def setup():
     data_path = "C:\\Users\\Dhairya\\Desktop\\python\\c 106\\project\\c 106 project\\data.csv" 
